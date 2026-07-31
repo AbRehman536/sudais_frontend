@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               Positioned(
                 top: 250,
-                left: 20,
+                left: 550,
                 right: 20,
                 child: Container(
                   decoration: BoxDecoration(
