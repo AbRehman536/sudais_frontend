@@ -18,7 +18,7 @@ class _ListTileScreenState extends State<ListTileScreen> {
     ChatList(name: "Tahir", message: 'Hello', date: '8/20/2026',),
     ChatList(name: "Haris", message: 'Hi', date: '10/5/2026',),
     ChatList(name: "Waseem", message: 'What?', date: '10/12/2026',),
-    ChatList(name: "Moheeb", message: 'Hello', date: '12/15/2026',),
+    ChatList(name: "Mohib", message: 'Hello', date: '12/15/2026',),
     ChatList(name: "Babar", message: 'Hey', date: '6/21/2026',),
   ];
   @override
