@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sudais_frontend/listTile.dart';
 import 'package:sudais_frontend/login.dart';
+import 'package:sudais_frontend/pageview.dart';
 import 'package:sudais_frontend/post_screen.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ListTileScreen()
+      home: PageviewScreen()
     );
   }
 }
