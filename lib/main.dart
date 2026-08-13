@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sudais_frontend/bottom_bar.dart';
 import 'package:sudais_frontend/gridView/gridView_builder.dart';
 import 'package:sudais_frontend/gridView/gridView_count.dart';
 import 'package:sudais_frontend/gridView/gridView_style.dart';
@@ -6,6 +7,7 @@ import 'package:sudais_frontend/listTile.dart';
 import 'package:sudais_frontend/login.dart';
 import 'package:sudais_frontend/pageview.dart';
 import 'package:sudais_frontend/post_screen.dart';
+import 'package:sudais_frontend/tab_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: GridviewStyle()
+      home: BottomBarScreen()
     );
   }
 }
