@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sudais_frontend/bottom_bar.dart';
+import 'package:sudais_frontend/date_time_picker.dart';
 import 'package:sudais_frontend/gridView/gridView_builder.dart';
 import 'package:sudais_frontend/gridView/gridView_count.dart';
 import 'package:sudais_frontend/gridView/gridView_style.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: BottomBarScreen()
+      home: DateTimePicker()
     );
   }
 }
